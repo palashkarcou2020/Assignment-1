@@ -612,6 +612,144 @@ font-family: Azeret Mono;
 font-size: 16px;
 font-weight: 400;
 line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+.cards{
+  position: absolute;
+width: 700px;
+height: 300px;
+  display: flex;
+  top: 80%;
+  right: 25%;
+  
+}
 
+
+.card-conta{
+position: static;
+width: 200px;
+height: 300px;
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 40px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 18px;
+}
+.cardimg{
+/* html-5 1 */
+position: relative;
+width: 56px;
+height: 56px;
+}
+.cimg{
+  /* Vector */
+position: absolute;
+width: 40px;
+height: 40px;
+left: 27.98px;
+top: 19.28px;
+background: rgb(255, 255, 255);
+}
+.ctextd{
+/* Frame 17 */
+position: static;
+width: 180px;
+height: 140px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 16px 0px;
+}
+.only2{
+   /* Frame 16 */
+position: absolute;
+width: 150px;
+height: 100px;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+margin: 0;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 16px 0px;
+}
+.cardh{
+  position: static;
+width: 170px;
+height: 36px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.cardp{
+position: static;
+width: 230px;
+height: 52px;
+opacity: 0.7;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 14px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+.Learn{
+  /* Learn More */
+position: absolute;
+top: 98%;
+width: 284px;
+height: 20px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
 }
 
