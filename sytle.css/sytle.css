@@ -816,21 +816,54 @@ bottom: 179px;
 background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
 }
 .supporth{
-  /* I need Support */
 position: absolute;
-top: 29%;
-left: 43%;
-width: 230px;
+top: 25%;
+left: 32%;
+width: 430px;
 height: 36px;
-/* Auto layout */
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 padding: 0px;
 color: rgb(255, 255, 255);
-font-size: 32px;
-font-weight: 700;
-line-height: 36px;
-
+font-family: Azeret Mono;
+}
+.supportph{
+  position: absolute;
+  top: 45%;
+  left: 20%;
+width: 706px;
+height: 52px;
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+}
+.suimportsub{
+  position: absolute;
+  top: 95%;
+  left: 30%;
+width: 684px;
+height: 58px;
+}
+.su{
+position: static;
+width: 348px;
+height: 40px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+}
+.sub{
+  position: static;
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+background: rgb(255, 255, 255);
 }
