@@ -867,3 +867,83 @@ background: rgb(255, 255, 255);
   border-radius: 8px;
 background: rgb(255, 255, 255);
 }
+.footer{
+position: absolute;
+width: 1040px;
+height: 80px;
+left: %;
+right: %;
+top: 4345px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 32px 150px 32px 150px;
+border-radius: 16px;
+background: rgba(13, 19, 33, 0.03);
+}
+.footerd{
+  /* Frame 24 */
+position: static;
+width: 940px;
+height: 36px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+}
+.footerhd{
+/* Frame 6 */
+position: static;
+width: 456px;
+height: 24px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+.footerh{
+  /* An Open Commitment by Awlad Hossain */
+position: static;
+width: 390px;
+height: 24px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 16px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 17px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
