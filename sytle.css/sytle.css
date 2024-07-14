@@ -790,3 +790,47 @@ text-align: left;
 text-decoration-line: underline;
 }
 
+.support {
+
+position: absolute;
+width: 990px;
+height: 300px;
+left: 170px;
+right: 150px;
+top: 3900px;
+bottom: 179px;
+
+}
+.supportd{
+  position: static;
+  width: 900px;
+  height: 186px;
+}
+
+.hpic{
+  position: absolute;
+  width: 930px;
+  height: 280px;
+  padding: 64px 48px 64px 48px;
+  border-radius: 70px;
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+}
+.supporth{
+  /* I need Support */
+position: absolute;
+top: 29%;
+left: 43%;
+width: 230px;
+height: 36px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+color: rgb(255, 255, 255);
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+
+}
